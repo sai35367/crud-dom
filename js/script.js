@@ -21,11 +21,11 @@ function renderTable(object) {
     const tr = document.createElement('tr');
     const updateButton = document.createElement('button');
     const deleteButton = document.createElement('button');
-
+    
     updateButton.innerText = "Update";
-    deleteButton.innerText = "Delete"
+    deleteButton.innerText = "Delete";
 
-    tr.appendChild(updateButton);
+    tr.appendChild(0);
     tr.appendChild(deleteButton);
 
     for (const data in object) {
